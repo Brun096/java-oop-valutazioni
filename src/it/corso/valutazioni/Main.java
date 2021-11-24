@@ -19,7 +19,7 @@ public class Main {
 			int voti=r.nextInt(5);
 			double rVoti=r.nextDouble()+voti;
 			
-			voto[i]=new CalcolaValutazione(i, rAssenze, rVoti);
+			voto[i]=new CalcolaValutazione(i+1, rAssenze, rVoti);
 		}
 	}
 
