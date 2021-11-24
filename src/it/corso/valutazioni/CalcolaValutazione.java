@@ -23,6 +23,6 @@ class CalcolaValutazione {
 		}else{
 			studente="Bocciato";
 		}
-	 System.out.println(studente);
+	 System.out.println("Lo studente "+idStudente+" è: "+studente);
 	}
 }
